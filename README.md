@@ -35,7 +35,10 @@ Follow these steps to set up the Hotel Booking Management System on your local e
 ![Alt text](./imgs/image-1.png)
 8. **Import SQL File:**
    - Import the `hotel_db.sql` file found in the SQL file folder of the downloaded ZIP package into the `hotel_db` database.
+
 ![Alt text](./imgs/image-2.png)
+
+
 ![Alt text](./imgs/img4.png)
 9. **Run the System:**
    - Open your web browser and go to [http://localhost/Hotel_Booking_Management_System](http://localhost/Hotel_Booking_Management_System).
