@@ -2,8 +2,8 @@
 <html lang="en">
     <?php
     session_start();
-    include('header.php');
-    include('admin/db_connect.php');
+    include('./header.php');
+    include('./admin/db_connect.php');
 
 	$query = $conn->query("SELECT * FROM system_settings limit 1")->fetch_array();
 	foreach ($query as $key => $value) {
@@ -32,6 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="./admin">Admin Login</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=list">Rooms</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">About</a></li>
                     </ul>
@@ -77,7 +78,7 @@
     </div>
   </div>
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Hotel Mangement system | <a href="https://1sourcecodr.blogspot.com/" target="_blank">1 SOURCE CODE</a></div></div>
+            <div class="container"><div class="small text-center text-muted">Hotel Mangement system | 2023</div></div>
         </footer>
         
        <?php include('footer.php') ?>
