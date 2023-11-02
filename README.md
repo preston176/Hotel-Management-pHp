@@ -11,6 +11,7 @@ Follow these steps to set up the Hotel Booking Management System on your local e
 
 2. **Choose a Text Editor:**
    - Select a text editor of your choice. Recommended: [Notepad++](https://notepad-plus-plus.org/) or [Sublime Text 3](https://www.sublimetext.com/).
+   - [Visual Studio Code](https://code.visualstudio.com/)
 
 3. **Download the System:**
    - Download the "Hotel_Booking_Management_System" from this repository.
