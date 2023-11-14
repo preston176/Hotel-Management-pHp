@@ -78,7 +78,8 @@
     </div>
   </div>
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Hotel Management system | 2023</div></div>
+            <div class="container"><div class="small text-center text-muted">Hotel Management System| 2023</div></div>
+          
         </footer>
         
        <?php include('footer.php') ?>
